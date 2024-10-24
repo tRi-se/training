@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="jp" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>tRi-se 社内システム</title>
+</head>
+<body>
+	<h1>Hello World！</h1>
+		<form th:action="@{/allEmp}" method="post">
+			<p>
+				<label for="name">名前を入力してくださいませんかね？</label>
+				<input type="text" name="name" id="name">
+			</p>
+			<p>
+				<input type="submit" value="次へ">
+			</p>
+		</form>
+</body>
+</html>
